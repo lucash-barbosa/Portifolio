@@ -3,14 +3,14 @@
 </div>
 
 
-![shild](https://img.shields.io/github/repo-size/lucash-barbosa/portfolio)
-![shild](https://img.shields.io/github/last-commit/lucash-barbosa/portfolio)
+![shild](https://img.shields.io/github/repo-size/lucash-barbosa/Portifolio)
+![shild](https://img.shields.io/github/last-commit/lucash-barbosa/Portifolio)
 
 > :eyes: Meu portifólio pessoal criado com reactjs 
 
 <br>
                                                   
-![portfolio](screencapture.png#vitrinedev)
+![Portifolio](screencapture.png#vitrinedev)
 
 ## Técnologias utilizadas
 - React
@@ -22,10 +22,10 @@
 ## 🚀 Acesso
 Para acessar o deploy utilize o link abaixo
 <br>
-Portifólio ↗️](https://lucash-barbosa.vercel.app)
+[Portifólio ↗️](https://lucash-barbosa.vercel.app)
 
 ## 🛠️ Abrir e rodar o projeto
-- [Baixe o projeto](****)
+- [Baixe o projeto](https://github.com/lucash-barbosa/Portifolio/archive/refs/heads/master.zip)
   
 - No terminal:
   - `cd Desktop/...` (local do projeto)
