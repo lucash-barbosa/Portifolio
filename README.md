@@ -10,7 +10,7 @@
 
 <br>
                                                   
-![Portifolio](screencapture.png#vitrinedev)
+![Portifolio](screencapture.png)
 
 ## Técnologias utilizadas
 - React
