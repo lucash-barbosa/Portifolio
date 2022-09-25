@@ -22,7 +22,7 @@
 ## 🚀 Acesso
 Para acessar o deploy utilize o link abaixo
 <br>
-Portifólio ↗️](****)
+Portifólio ↗️](https://lucash-barbosa.vercel.app)
 
 ## 🛠️ Abrir e rodar o projeto
 - [Baixe o projeto](****)
