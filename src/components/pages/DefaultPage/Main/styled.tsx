@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const ContainerWrapper = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 27vh auto;
+  margin: 35vh auto;
   justify-content: space-evenly;
   width: fit-content;
   text-align: center;
