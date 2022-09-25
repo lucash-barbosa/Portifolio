@@ -10,14 +10,10 @@ export const Wrapper = styled.nav`
   padding: 1em;
   justify-content: space-around;
   text-align: center;
-  z-index: 5;
 
   @media screen and (min-width: 768px) {
-    position: fixed;
+    padding: .5em 0;
     flex-direction: row;
-    padding: 0;
-    backdrop-filter: blur(100px);
-    -webkit-backdrop-filter: blur(100px);
   }
 
   div {
