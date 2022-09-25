@@ -28,11 +28,12 @@ import "swiper/css";
 import "swiper/css/free-mode";
 import "swiper/css/pagination";
 import { FreeMode, Pagination } from "swiper";
+import "./carousel.css";
 import casaVerde from "assets/imgs/covers/casa-verde.png";
 import amigoSecreto from "assets/imgs/covers/amigo-secreto.png";
 import aluroni from "assets/imgs/covers/aluroni.png";
+import portifolio from "assets/imgs/covers/portifolio.png";
 import gear from "assets/icons/gear.svg";
-import "./carousel.css";
 
 export default function Portfolio () {
   const theme = useRecoilValue(themeState);
@@ -41,7 +42,7 @@ export default function Portfolio () {
 
   let id = -1;
 
-  const cover = [ aluroni, amigoSecreto, casaVerde];
+  const cover = [ aluroni, amigoSecreto, casaVerde, portifolio];
   
   useEffect(() => {
     fetch("https://api.github.com/users/lucash-barbosa/repos")
@@ -52,8 +53,8 @@ export default function Portfolio () {
 
   return (
     <ThemeProvider theme={theme === "light" ? lightTheme : darkTheme}>
-      <ContainerWrapper id="portfolio">
-        <Title>Projetos</Title>
+      <ContainerWrapper>
+        <Title id="portfolio">Projetos</Title>
         <Wrapper>
           <Swiper
             slidesPerView={1}
@@ -77,7 +78,7 @@ export default function Portfolio () {
             }}
           >
             {repositories.map((repository, index) => {
-              if (repository.name === "Aluroni" || repository.name === "Amigo-Secreto" || repository.name === "Casa-Verde") {
+              if (repository.name === "Aluroni" || repository.name === "Amigo-Secreto" || repository.name === "Casa-Verde" || repository.name === "Portifolio") {
                 id += 1;
                 return (
                   <SwiperSlide key={index}>
