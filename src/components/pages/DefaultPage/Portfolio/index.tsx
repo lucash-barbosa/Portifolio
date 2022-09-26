@@ -77,7 +77,7 @@ export default function Portfolio () {
               },
             }}
           >
-            {repositories.map((repository, index) => {
+            {repositories.map((repository, index) => { // eslint-disable-line
               if (repository.name === "Aluroni" || repository.name === "Amigo-Secreto" || repository.name === "Casa-Verde" || repository.name === "Portifolio") {
                 id += 1;
                 return (
