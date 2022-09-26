@@ -25,11 +25,12 @@ Para acessar o deploy utilize o link abaixo
 [Portifólio ↗️](https://lucash-barbosa.vercel.app)
 
 ## 🛠️ Abrir e rodar o projeto
-- [Baixe o projeto](https://github.com/lucash-barbosa/Portifolio/archive/refs/heads/master.zip)
-  
-- No terminal:
-  - `cd Desktop/...` (local do projeto)
-  - `npm install`
-  - `npm start`
 
-- Abra o programa no navegador pelo link <a href="http://localhost:3000/">http://localhost:3000/</a>
+### Setup de ambiente
+- [Node LTS](https://nodejs.org/en/)
+
+### Rodar o projeto
+- Clone o projeto ```git clone https://github.com/lucash-barbosa/Portifolio.git```
+- Rode ```npm install```
+- Rode ```npm start```
+- Abra o projeto no navegador pelo link <a href="http://localhost:3000/">http://localhost:3000/</a>
