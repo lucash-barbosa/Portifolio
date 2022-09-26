@@ -27,7 +27,7 @@ Para acessar o deploy utilize o link abaixo
 ## 🛠️ Abrir e rodar o projeto
 
 ### Setup de ambiente
-- [Node LTS](https://nodejs.org/en/)
+- [Node 16.17.1](https://nodejs.org/en/)
 
 ### Rodar o projeto
 - Clone o projeto ```git clone https://github.com/lucash-barbosa/Portifolio.git```
