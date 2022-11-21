@@ -5,7 +5,7 @@ import { themeState } from "components/state/atom";
 import { ThemeProvider } from "styled-components";
 import { darkTheme, lightTheme } from "components/theme";
 import { GlobalStyle } from "GlobalStyle";
-import DefaultPage from "components/pages/DefaultPage";
+import DefaultPage from "pages/DefaultPage";
 
 function App() {
   const theme = useRecoilValue(themeState);

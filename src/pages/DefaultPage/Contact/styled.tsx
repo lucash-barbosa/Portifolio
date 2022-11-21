@@ -61,14 +61,13 @@ export const List = styled.ul`
     align-items: center;
     margin-bottom: .5rem; 
 
+
+
     a {
       color: #64849B;
       font-size: 24px;
       font-weight: 500;
 
-      &:hover {
-        font-size: larger;
-      }
     }
   }
 

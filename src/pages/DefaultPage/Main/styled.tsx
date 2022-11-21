@@ -70,23 +70,13 @@ export const List = styled.ul`
   width: fit-content;
   margin: 0 auto;
 
-  li {
-    background-color: ${props => props.theme.iconShadowMain};
-    background-size: cover;
-    margin: .5em .5em;
-    padding: .4em .4em .15em .4em;
-    border-radius: 50%;
-
+  & > li {
+    background-color: ${props => props.theme.iconShadowMain}
   }
 
   @media screen and (min-width: 940px) {
     margin: 0 0;
   }
-`;
-
-export const Icon = styled.img `
-  width: 28px;
-  height: 28px;
 `;
 
 export const Image = styled.img`

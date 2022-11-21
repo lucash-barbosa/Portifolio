@@ -6,7 +6,6 @@ import {
   ContainerWrapper,
   ContentWrapper, 
   HighLight, 
-  Icon, 
   Image, 
   List, 
   Paragraph, 
@@ -17,6 +16,7 @@ import linkedinIcon from "assets/icons/social/linkedin.svg";
 import gitHubIcon from "assets/icons/social/github.svg";
 import instagramIcon from "assets/icons/social/instagram.svg";
 import twitterIcon from "assets/icons/social/twitter.svg";
+import Icon from "components/Icon";
 
 export default function Main () {
   const theme = useRecoilValue(themeState);
@@ -29,18 +29,26 @@ export default function Main () {
           <HighLight>Lucas Henrique Barbosa</HighLight>
           <Paragraph>Desenvolvedor front end júnior - React, Typescript, Javascript, Html, Css</Paragraph>
           <List>
-            <li>
-              <a href="https://www.linkedin.com/in/lucas-h-barbosa" target="_blank" rel="noopener noreferrer"><Icon src={linkedinIcon} alt="Logo do Linkedin" /></a>
-            </li>
-            <li>
-              <a href="https://github.com/lucash-barbosa" target="_blank" rel="noopener noreferrer"><Icon src={gitHubIcon} alt="Logo do GitHub" /></a>
-            </li>
-            <li>
-              <a href="https://www.instagram.com/lucas_lkj/" target="_blank" rel="noopener noreferrer"><Icon src={instagramIcon} alt="Logo do Instagram" /></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/lucaslkj565" target="_blank" rel="noopener noreferrer"><Icon src={twitterIcon} alt="Logo do Twitter" /></a>
-            </li>
+            <Icon 
+              path="https://www.linkedin.com/in/lucas-h-barbosa" 
+              icon={linkedinIcon} 
+              alt="Logo do Linkedin" 
+            />
+            <Icon 
+              path="https://github.com/lucash-barbosa" 
+              icon={gitHubIcon} 
+              alt="Logo do Linkedin" 
+            />
+            <Icon 
+              path="https://www.instagram.com/lucas_lkj" 
+              icon={instagramIcon} 
+              alt="Logo do Instagram" 
+            />
+            <Icon 
+              path="https://twitter.com/lucaslkj565" 
+              icon={twitterIcon} 
+              alt="Logo do Twitter" 
+            />
           </List>
         </ContentWrapper>
         <Image src={photo} />
