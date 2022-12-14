@@ -27,7 +27,7 @@ export default function Main () {
         <ContentWrapper>
           <Title>Olá, eu sou</Title>
           <HighLight>Lucas Henrique Barbosa</HighLight>
-          <Paragraph>Desenvolvedor front end júnior - React, Typescript, Javascript, Html, Css</Paragraph>
+          <Paragraph>Desenvolvedor front-end júnior - React, React Native, Typescript, Javascript, Html, Css</Paragraph>
           <List>
             <Icon 
               path="https://www.linkedin.com/in/lucas-h-barbosa" 
